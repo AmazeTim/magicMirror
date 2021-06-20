@@ -1,7 +1,7 @@
 # from picamera import PiCamera
 from time import sleep
 import time
-import boto3
+#import boto3
 import json
 import requests
 from datetime import datetime

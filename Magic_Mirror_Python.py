@@ -1,17 +1,16 @@
 import tkinter as tk
 from tkinter import *
 from tkinter import messagebox
-
 from utils import *
 import time
 from time import sleep
 from newsapi import NewsApiClient
 import os
-import boto3
+#import boto3
 import json
 from datetime import datetime
 from state import LoginStates
-from LED import LEDWS2812LED
+#from LED import LEDWS2812LED
 
 states = LoginStates()
 

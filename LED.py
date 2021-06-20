@@ -32,7 +32,6 @@ class WS2812LED():
         for i in range(self.strip.numPixels()):
             self.strip.setPixelColor(i, Color(255,255,255))
             self.strip.show()
-        return 0
 
     def BrightnessAdj(self,Higher=True):
         if Higher:
